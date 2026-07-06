@@ -1,0 +1,4 @@
+Wikipedia-API
+nltk
+flask
+matplotlib
