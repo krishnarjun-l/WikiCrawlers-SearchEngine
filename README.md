@@ -39,22 +39,6 @@ from scratch — no external search/IR library is used for ranking.
 - **Jupyter** (Notebook or JupyterLab), or **VS Code** with the Jupyter extension
 - Python packages: `Wikipedia-API`, `nltk`, `flask`, `matplotlib`
 
-Install the packages:
-
-```bash
-pip install Wikipedia-API nltk flask matplotlib
-```
-
-Download the one NLTK resource the project needs (run once, in Python or a notebook cell):
-
-```python
-import nltk
-nltk.download('stopwords')
-```
-
-> The Porter stemmer ships with NLTK and needs no download. Tokenization is
-> regular-expression based, so the `punkt` tokenizer is **not** required.
-
 ---
 
 ## 4. How to run
